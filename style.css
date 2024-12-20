@@ -1,5 +1,5 @@
 body{
-    background-color: slateblue;
+    background-color: rgb(12, 10, 28);
     font-family: 'Trebuchet MS';
     color: white;
     text-align: center;
@@ -28,4 +28,51 @@ body{
         width: auto;
         height: 100%;
     }
+}
+.animate{
+    opacity: 0;
+    translate: 0 0.75rem;
+    transition: 700ms cubic-bezier(0, 0, 0.2, 1);
+}
+.animate.show{
+    opacity: 1;
+    translate: 0 0;
+}
+.pages{
+    display: flexbox;
+}
+.container{
+    width: 92%;
+    margin: auto;
+    height: 100%;
+}
+/*Tablets Style*/
+@media only screen and (min-width: 576px) {
+    .container{
+        width: 540px;
+    }
+}
+/*Desktop Style*/
+@media only screen and (min-width: 1200px) {
+    .container{
+        width: 1140px;
+    }
+}
+
+.top-bar{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.discord{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+}
+.link{
+    color: white;
 }
