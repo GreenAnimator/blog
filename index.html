@@ -4,39 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Green Blog</title>
-    <link rel="icon" type="image/x-icon" href="Perfil Instagram.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="../src/img/Perfil Instagram.png">
+    <link rel="stylesheet" href="../src/styles/style.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            
-            <video autoplay loop muted plays-inline class="background-clip">
-                <source src="Parallax Website.mp4" type="video/mp4">
-            </video>
-    
-            <img id="Home" src="Perfil Instagram.png">
-    
-            <h1>Bienvenido a la pagina web de Green!</h1>
-
-        </div>
+        <h1>Ryan Coria</h1>
+        <nav>
+            <ul class="nav__links">
+                <li>
+                    <a href="#">
+                        <h3>Sobre mí</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Contacto</h3>
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </header>
-
-    <div class="container">
-        <h3>Esta es la pagina web de Green Animator,
-             donde encontrarás las ultimas actualizaciones
-              sobre su canal, episodios, y mucho más.
-        </h3>
-        <h3>Servidor de Discord:</h3>
-    </div>
-    
-    <div class="container">
-        <div class="discord">
-            <img src="icons8-discord-48.png">
-            <a class="link" href="https://discord.gg/TuXhDmUA4R">
-                <h3>https://discord.gg/TuXhDmUA4R</h3>
-            </a>
+    <br>
+    <div class="containergradient">
+        <!--<video autoplay loop muted plays-inline class="background-clip">
+            <source src="Parallax Website.mp4" type="video/mp4">
+        </video> https://youtu.be/NLhR-OLH8bk?si=9_bAy1AKBTl5oAej-->
+        
+        <img class="avatar" src="../src/img/Perfil Instagram.png">
+        <br>
+        <div class="avatar-desc">
+            <h1>Hola, soy Ryan Coria.</h1>
+            <h4>Desarollador Front-end · Estudiante</h4>
+        </div>
+        <div class="lang">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" height="32px"/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" height="32px"/>
+            <!--<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" height="32px"/>-->
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" height="32px"/>
+            <!--<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height="32px"/>-->
         </div>
     </div>
+    <div class="containerdark">
+        <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum ex tenetur harum cumque assumenda, quos possimus dolorem libero iste asperiores tempora iusto deserunt atque a quam quo. Molestiae, unde similique?</h2>
+        <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum ex tenetur harum cumque assumenda, quos possimus dolorem libero iste asperiores tempora iusto deserunt atque a quam quo. Molestiae, unde similique?</h2>
+    </div>
+    <footer class="footer">
+        <ul class="footer__links">
+            <li>
+                <a href="https://discord.gg/TuXhDmUA4R" target="_blank">
+                <img src="../src/img/icons8-discord-48.png" alt="Servidor de Discord">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/@StickFigureGreen" target="_blank">
+                <img src="../src/img/icons8-youtube-50.png" alt="Canal de Youtube">
+                </a>
+            </li>
+        </ul>
+        <p>©2024 RayDev. Todos los derechos reservados</p>
+    </footer>
 </body>
 </html>
